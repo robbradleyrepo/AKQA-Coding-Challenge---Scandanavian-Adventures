@@ -1,4 +1,4 @@
-# Scandinavian Adventures - AQKA Sweden Coding Challenge
+# Scandinavian Adventures DEMO - AQKA Sweden Coding Challenge
 
 Author: Rob Bradley | July 2020 | paraxia@hotmail.com
 
