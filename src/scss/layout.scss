@@ -1,0 +1,148 @@
+@import './breakpoints.scss';
+
+.pagewrap {
+    width: 100%; 
+}
+
+main {
+	position: relative; 
+}
+
+section, header {
+	position: relative;
+	width: 100%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto; 
+
+	&.full-width {
+		max-width: 1440px;
+	}
+	
+	&::after {
+		clear: both;
+		content: "";
+        display: block; 
+	}
+}
+
+.row-split {
+	display: flex;
+	flex-direction: column;
+	@media (min-width: $small) {
+		flex-direction: row;
+	}
+	
+	& > div:nth-child(1) {
+		width: 100%;
+		@media (min-width: $small) {
+			width: 25%;
+			margin-right: 5%;
+		}
+	}
+	& > div:nth-child(2) {
+		width: 100%;
+		@media (min-width: $small) {
+			width: 70%;
+		}
+	}
+
+	// fallbacks
+	& > div:only-child {
+		width: 100%;
+		@media (min-width: $small) {
+			width: 100%;
+		}
+	}
+	
+	//temp
+	img { 
+		max-height: 300px;
+		overflow: hidden;
+	}
+
+}
+// move to module scss partial
+
+.c-hero {
+	display: flex; 
+	align-items: top; 
+	width: 100%;
+	margin: 40px 0; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 65vh;
+	
+	&__content {
+		margin-top: 15vw;
+		margin-left: 7vw;
+		width: 50%;
+		@media (min-width: $small) {
+			width: 100%;
+		} 
+
+		h2 {
+			font-family: Fahkwang;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 23px; 
+			letter-spacing: 1.63636px;
+			color: white;
+			font-size: 18px;
+		
+		}
+		p {
+			font-family: Muli;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 18px;
+			letter-spacing: 1.27273px;
+			color: white;
+		} 
+
+		.button-primary {
+			background-color: white;
+			padding: 10px 20px;
+			display: inline-block;
+			opacity: 1;
+			transition: all 0.3ms ease-in-out;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+
+	}
+}
+
+// move to elements scss
+
+.e-button {
+		display: inline-block;
+		text-decoration: none;
+		border: none;
+		padding: 20px;
+		cursor: pointer;
+		position: relative;
+		overflow: hidden; 
+		font-family: Fahkwang;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		letter-spacing: 1.27273px;
+
+		&.white {
+			background: white;
+			color: black;
+		}
+
+		&.black {
+			background: black;
+			color: white;
+		}
+
+	}
+	

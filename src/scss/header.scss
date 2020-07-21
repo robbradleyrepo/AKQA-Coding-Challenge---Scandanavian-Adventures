@@ -1,0 +1,43 @@
+@import './breakpoints.scss';
+
+header { 
+
+    margin-top: 20px;
+    width: 100%;
+
+    h1 {
+        font-family: Fahkwang;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        float: left;
+        color: black;
+    }
+
+    nav {
+        float: right;
+        ul {
+            list-style: none;
+            display: none;
+            flex-direction: row; 
+
+            @media (min-width: $small) {
+                display: flex;
+            } 
+
+            li {
+                padding-left: 5vw;
+                a {
+                    font-family: Muli;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+        }
+        
+    }
+
+}

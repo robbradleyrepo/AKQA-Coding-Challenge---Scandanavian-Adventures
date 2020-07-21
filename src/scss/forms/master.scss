@@ -1,0 +1,17 @@
+.f-forms {
+	.f-forms__element {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		position: relative;
+
+		label {
+				display: block; 
+				position: relative;
+				left: 0;
+		}
+	}
+	.f-forms__validation--notice {
+		display: none; //temp
+	}
+}
