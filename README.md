@@ -1,8 +1,36 @@
-Scandinavian Adventures - AQKA SE Test
+Scandinavian Adventures - AQKA Sweden Coding Challenge
 
 Author: Rob Bradley | July 2020 | paraxia@hotmail.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Brief
+
+[PDF Brief](https://github.com/robbradleyrepo/AKQA-Coding-Challenge---Scandanavian-Adventures/blob/dev/AKQA_WebDeveloperCodingTestv2%20(1)%20(1).pdf)
+
+# Tech Stack
+
+React / Javascript / React Spring / SASS / JSON
+
+```build/``` folder contains static / deployment ready.   
+
+# Notes
+
+12 hours production time.
+
+Demo focuses on:
+- JSON data mapping for all content
+- Booking Panel Modal animation utilizing React-Spring 
+- Introducing BEMIT / ATOMIC design principles with Node SCSS 
+- Basic responsiveness and accessibility in play for demo purposes.
+
+Next Steps:
+- React Props
+- A centralised dynamic JSON parsing script (time permitting)
+- Styled Components
+- Componentization of SCSS partials - Grids, Colours etc 
+- React Form Solution w/ validation + error handling
+
 
 ## Available Scripts
 
