@@ -1,20 +1,20 @@
-Scandinavian Adventures - AQKA Sweden Coding Challenge
+# Scandinavian Adventures - AQKA Sweden Coding Challenge
 
 Author: Rob Bradley | July 2020 | paraxia@hotmail.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Brief
+## Brief
 
 [PDF Brief](https://github.com/robbradleyrepo/AKQA-Coding-Challenge---Scandanavian-Adventures/blob/dev/AKQA_WebDeveloperCodingTestv2%20(1)%20(1).pdf)
 
-# Tech Stack
+## Tech Stack
 
 React / Javascript / React Spring / SASS / JSON
 
 ```build/``` folder contains static / deployment ready.   
 
-# Notes
+## Notes
 
 12 hours production time.
 
